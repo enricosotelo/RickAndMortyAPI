@@ -5,7 +5,6 @@ Este é um projeto de página web simples que utiliza a API de Rick and Morty pa
 ## Funcionalidades
 
 - **Visualização de Personagens**: Visualize uma lista de personagens principais da série.
-- **Detalhes dos Personagens**: Clique em um personagem para ver suas informações detalhadas.
 - **Episódios Relacionados**: Veja em quais episódios cada personagem aparece.
 
 ## Como Usar
