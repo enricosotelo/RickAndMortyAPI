@@ -38,6 +38,6 @@ JavaScript
 VueJs
 API de Rick and Morty
 
-##Contribuição
+## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues.
 
