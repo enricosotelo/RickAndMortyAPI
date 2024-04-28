@@ -19,15 +19,6 @@ export default {
                 .then(res => {
                     (this.characters = res.data.results)
                 })
-                .catch(e => {
-                    console.log(e)
-                })
-                .then(res2 => {
-                    (this.characters = res2.data.location)
-                })
-                .then(res3 => {
-                    (this.characters = res3.data.episode)
-                })
         }
     },
 
