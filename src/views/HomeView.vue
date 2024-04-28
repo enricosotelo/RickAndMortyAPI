@@ -1,9 +1,4 @@
 <script>
-import {
-    onMounted,
-    reactive,
-    ref
-} from 'vue';
 import axios from 'axios'
 
 export default {
@@ -57,6 +52,7 @@ export default {
                                 <p class="card-text">Last known location: {{ character.location.name }}</p>
                                 <p class="card-text">First seen: {{character.origin.name }}</p>
                                 <p class="card-text"><small class="text-body-secondary">Gender: {{ character.gender }}</small></p>
+                                <p class="card-text">Episodes that appear: {{ character.episode.length }}</p>
     
                             </div>
                         </div>
