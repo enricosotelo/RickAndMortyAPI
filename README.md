@@ -26,7 +26,7 @@ npm install
 ```bash
 npm run dev
 ```
-5. Vá até o localhost mostrado no temrinal.
+5. Vá até o localhost mostrado no terminal.
 
 ## Sobre
 Este projeto foi criado como parte de um projeto da faculdade. Ele foi desenvolvido por mim como uma demonstração de utilização da API de Rick and Morty.
