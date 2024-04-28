@@ -31,12 +31,12 @@ npm run dev
 ## Sobre
 Este projeto foi criado como parte de um projeto da faculdade. Ele foi desenvolvido por mim como uma demonstração de utilização da API de Rick and Morty.
 
-Tecnologias Utilizadas
-HTML
-CSS
-JavaScript
-VueJs
-API de Rick and Morty
+## Tecnologias Utilizadas
+* HTML
+* CSS
+* JavaScript
+* VueJs
+* API de Rick and Morty
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues.
