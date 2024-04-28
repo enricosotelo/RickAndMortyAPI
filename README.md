@@ -1,29 +1,44 @@
-# rick-morty-api
+# Rick and Morty API Website
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é um projeto de página web simples que utiliza a API de Rick and Morty para exibir informações sobre os personagens da série.
 
-## Recommended IDE Setup
+## Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Visualização de Personagens**: Visualize uma lista de personagens principais da série.
+- **Detalhes dos Personagens**: Clique em um personagem para ver suas informações detalhadas.
+- **Episódios Relacionados**: Veja em quais episódios cada personagem aparece.
 
-## Customize configuration
+## Como Usar
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Clone este repositório:
 
-## Project Setup
-
-```sh
+```bash
+git clone https://github.com/seu-usuario/seu-projeto.git
+```
+2. Navegue até o diretório do projeto:
+```bash
+cd seu-projeto
+```
+3. Instale as dependências:
+```bash
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+4. Execute o servidor local:
+```bash
 npm run dev
 ```
+5. Vá até o localhost mostrado no temrinal.
 
-### Compile and Minify for Production
+## Sobre
+Este projeto foi criado como parte de um projeto da faculdade. Ele foi desenvolvido por mim como uma demonstração de utilização da API de Rick and Morty.
 
-```sh
-npm run build
-```
+Tecnologias Utilizadas
+HTML
+CSS
+JavaScript
+VueJs
+API de Rick and Morty
+
+##Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues.
+
