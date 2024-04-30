@@ -29,22 +29,21 @@ export default {
     <main>
         <div class="row">
             <div class="col-md-6" v-for="character in characters" :key="character.id">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3">
                     <div class="row g-0 p-2 ">
-                        <div class="col-md-4">
-                            <img :src="character.image" class="card-img-top" height="100%" alt="...">
-                        </div>
                         <div class="col-md-8">
+                            <img :src="character.image" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">{{character.id}}</h5>
+                                <p class="card-text">
+                                <h5 class="card-title">{{ character.id }}</h5>
                                 <h5 class="card-title">{{ character.name }}</h5>
                                 <p class="card-text">Status: {{ character.status }}</p>
-                                <p class="card-text">Species: {{ character.species }}</p> 
+                                <p class="card-text">Species: {{ character.species }}</p>
                                 <p class="card-text">Last known location: {{ character.location.name }}</p>
-                                <p class="card-text">First seen: {{character.origin.name }}</p>
-                                <p class="card-text"><small class="text-body-secondary">Gender: {{ character.gender }}</small></p>
+                                <p class="card-text">First seen: {{ character.origin.name }}</p>
+                                <p class="card-text"><small class="text-body-secondary">Gender: {{character.gender}}</small></p>
                                 <p class="card-text">Episodes that appear: {{ character.episode.length }}</p>
-    
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -53,4 +52,3 @@ export default {
         </div>
     </main>
 </template>
-
